@@ -18,6 +18,9 @@ app.get('/api/sensor/data', (req, res) => {
   res.json(sensorData); // Serve latest data
 });
 
+app.get('/', (req, res) => {
+  res.send('Esp32 Sensor Data Server is running');
+});
 app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);
 });
