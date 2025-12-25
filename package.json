@@ -8,12 +8,13 @@
     "build": "echo 'Build complete'",
     "dev": "nodemon server.js"
   },
-  "keywords": ["esp32", "sensor", "api"],
+  "keywords": ["esp32", "sensor", "api", "environment"],
   "author": "",
   "license": "ISC",
-  "description": "Microcontroller sensor data API server",
+  "description": "ESP32 Environment Monitoring API Server",
   "dependencies": {
-    "express": "^4.18.2"
+    "express": "^4.18.2",
+    "cors": "^2.8.5"
   },
   "devDependencies": {
     "nodemon": "^3.0.1"
